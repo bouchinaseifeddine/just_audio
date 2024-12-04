@@ -767,7 +767,7 @@ class AudioPlayer {
   /// this call completed or the player was stopped or disposed of before the
   /// call completed.
   Future<Duration?> setAudioSource(
-    AudioSource source, {
+    AudioSource? source, {
     bool preload = true,
     int? initialIndex,
     Duration? initialPosition,
